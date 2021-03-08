@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="280dp"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_person"
+        app:riv_border_color="@android:color/black"
+        app:riv_border_width="3dp"
+        app:riv_corner_radius="30dp"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"
+        app:riv_tile_mode="clamp" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tv_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Contact Name"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tv_detail_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Tel"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
